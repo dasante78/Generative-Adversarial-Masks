@@ -9,13 +9,6 @@
 - **Flexible Protection Levels**: The model allows for adjustable parameters to balance between image quality and protection based on the use case.
 - **Evaluation on Multiple Datasets**: Tested on both Flickr30k and Dogs vs Cats datasets, demonstrating reduced AI classifier performance.
 
-## Usage
-To run the model:
-1. Preprocess your image dataset to the required size (224x224 pixels).
-2. Train the SPAM model using the included Python script (`train_SPAM.py`).
-3. Adjust the epsilon parameter in the script to vary the strength of the perturbation mask.
-4. Test the model's performance by running the evaluation script (`evaluate_SPAM.py`), which compares image quality and cosine similarity.
-
 ## Models
 Several variations of the SPAM model were implemented:
 
@@ -40,7 +33,7 @@ The SPAM model effectively protects images from AI analysis, balancing protectio
 - Investigate the use of diffusion models for creating more robust protective masks.
 
 ## Acknowledgments
-Special thanks to Professor Russell Tedrake, Ethan Yang, and the MIT staff for their guidance.
+Special thanks to the MIT staff for their guidance.
 
 ## License
 This project is licensed under the MIT License.
