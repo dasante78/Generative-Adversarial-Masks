@@ -1,6 +1,9 @@
 # Generative Adversarial Masks: Safeguarding Images from AI Models with Stealthy Perturbations
 6.8301 Project. By Daniel Prakah-Asante and Aileen Liao
 
+![Figures](https://github.com/user-attachments/assets/680a2a0a-0b51-4e3e-8f70-f0346245d581)
+
+
 ## Project Overview
 "Generative Adversarial Masks" (SPAM) is a research project focused on protecting images from being analyzed by AI models. The project develops a Stealth Perturbation Adaptive Model (SPAM) that applies image-specific perturbations to protect images from AI analysis while maintaining visual similarity.
 
